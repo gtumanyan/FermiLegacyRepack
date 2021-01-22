@@ -1,53 +1,26 @@
 ; NVIDIA Windows 10 (64 bit) Display INF file
 ; Copyright (c) NVIDIA Corporation. All rights reserved.
-; Timestamp: 1597679305524926 3a4b22d100ff55a5cedafd2d291ddc35
+; Timestamp: 1605677416223874 3a4b22d100ff55a5cedafd2d291ddc35
 
 [Version]
 Signature   = "$Windows NT$"
 Provider    = %NVIDIA%
 ClassGUID   = {4D36E968-E325-11CE-BFC1-08002BE10318}
 Class       = Display
-DriverVer   = 08/17/2020, 23.21.13.9262
+DriverVer   = 11/17/2020, 23.21.13.9263
 CatalogFile = NV_DISP.CAT
+
 [nv_CplInstaller]
-Default_addreg = nv_CplInstaller_addreg
-Default_copyfiles = nv_CplInstaller_copyfiles
+Default_addreg         = nv_CplInstaller_addreg
+Default_copyfiles      = nv_CplInstaller_copyfiles
 
 [nv_CplInstaller_copyfiles]
 Nv3DAppShExt.dll
 Nv3DAppShExtR.dll
 NvGpuUtilization.exe
 nv3d.chm
-nv3dARA.chm
-nv3dCHS.chm
-nv3dCHT.chm
-nv3dCSY.chm
-nv3dDAN.chm
-nv3dDEU.chm
-nv3dELL.chm
 nv3dENG.chm
-nv3dESM.chm
-nv3dESN.chm
-nv3dFIN.chm
-nv3dFRA.chm
-nv3dHEB.chm
-nv3dHUN.chm
-nv3dITA.chm
-nv3dJPN.chm
-nv3dKOR.chm
-nv3dNLD.chm
-nv3dNOR.chm
-nv3dPLK.chm
-nv3dPTB.chm
-nv3dPTG.chm
 nv3dRUS.chm
-nv3dSKY.chm
-nv3dSLV.chm
-nv3dSVE.chm
-nv3dTHA.chm
-nv3dTRK.chm
-nvDevTools.dll
-nvDevToolsR.dll
 nvLicensingSR.dll
 nvSmartMax.dll
 nvSmartMax64.dll
@@ -57,132 +30,27 @@ nvcoproc.bin
 nvcpl.chm
 nvcpl.cpl
 nvcpl.dll
-nvcplARA.chm
-nvcplCHS.chm
-nvcplCHT.chm
-nvcplCSY.chm
-nvcplDAN.chm
-nvcplDEU.chm
-nvcplELL.chm
 nvcplENG.chm
-nvcplESM.chm
-nvcplESN.chm
-nvcplFIN.chm
-nvcplFRA.chm
-nvcplHEB.chm
-nvcplHUN.chm
-nvcplITA.chm
-nvcplJPN.chm
-nvcplKOR.chm
-nvcplNLD.chm
-nvcplNOR.chm
-nvcplPLK.chm
-nvcplPTB.chm
-nvcplPTG.chm
 nvcplRUS.chm
-nvcplSKY.chm
-nvcplSLV.chm
-nvcplSVE.chm
-nvcplTHA.chm
-nvcplTRK.chm
 nvcplui.exe
 nvcpluir.dll
-nvdev.chm
 nvdisps.dll
 nvdispsr.dll
 nvdsp.chm
-nvdspARA.chm
-nvdspCHS.chm
-nvdspCHT.chm
-nvdspCSY.chm
-nvdspDAN.chm
-nvdspDEU.chm
-nvdspELL.chm
 nvdspENG.chm
-nvdspESM.chm
-nvdspESN.chm
-nvdspFIN.chm
-nvdspFRA.chm
-nvdspHEB.chm
-nvdspHUN.chm
-nvdspITA.chm
-nvdspJPN.chm
-nvdspKOR.chm
-nvdspNLD.chm
-nvdspNOR.chm
-nvdspPLK.chm
-nvdspPTB.chm
-nvdspPTG.chm
 nvdspRUS.chm
-nvdspSKY.chm
-nvdspSLV.chm
-nvdspSVE.chm
-nvdspTHA.chm
-nvdspTRK.chm
 nvgames.dll
 nvgamesr.dll
 nvlic.chm
-nvlicARA.chm
-nvlicCHS.chm
-nvlicCHT.chm
-nvlicCSY.chm
-nvlicDAN.chm
-nvlicDEU.chm
-nvlicELL.chm
 nvlicENG.chm
-nvlicESM.chm
-nvlicESN.chm
-nvlicFIN.chm
-nvlicFRA.chm
-nvlicHEB.chm
-nvlicHUN.chm
-nvlicITA.chm
-nvlicJPN.chm
-nvlicKOR.chm
-nvlicNLD.chm
-nvlicNOR.chm
-nvlicPLK.chm
-nvlicPTB.chm
-nvlicPTG.chm
 nvlicRUS.chm
-nvlicSKY.chm
-nvlicSLV.chm
-nvlicSVE.chm
-nvlicTHA.chm
-nvlicTRK.chm
 nvlicensings.dll
 nvmccss.dll
 nvmccssr.dll
 nvmctray.dll
 nvmob.chm
-nvmobARA.chm
-nvmobCHS.chm
-nvmobCHT.chm
-nvmobCSY.chm
-nvmobDAN.chm
-nvmobDEU.chm
-nvmobELL.chm
 nvmobENG.chm
-nvmobESM.chm
-nvmobESN.chm
-nvmobFIN.chm
-nvmobFRA.chm
-nvmobHEB.chm
-nvmobHUN.chm
-nvmobITA.chm
-nvmobJPN.chm
-nvmobKOR.chm
-nvmobNLD.chm
-nvmobNOR.chm
-nvmobPLK.chm
-nvmobPTB.chm
-nvmobPTG.chm
 nvmobRUS.chm
-nvmobSKY.chm
-nvmobSLV.chm
-nvmobSVE.chm
-nvmobTHA.chm
-nvmobTRK.chm
 nvmobls.dll
 nvmoblsr.dll
 nvshext.dll
@@ -195,34 +63,8 @@ nvuir.dll
 nvvitvs.dll
 nvvitvsr.dll
 nvwks.chm
-nvwksARA.chm
-nvwksCHS.chm
-nvwksCHT.chm
-nvwksCSY.chm
-nvwksDAN.chm
-nvwksDEU.chm
-nvwksELL.chm
 nvwksENG.chm
-nvwksESM.chm
-nvwksESN.chm
-nvwksFIN.chm
-nvwksFRA.chm
-nvwksHEB.chm
-nvwksHUN.chm
-nvwksITA.chm
-nvwksJPN.chm
-nvwksKOR.chm
-nvwksNLD.chm
-nvwksNOR.chm
-nvwksPLK.chm
-nvwksPTB.chm
-nvwksPTG.chm
 nvwksRUS.chm
-nvwksSKY.chm
-nvwksSLV.chm
-nvwksSVE.chm
-nvwksTHA.chm
-nvwksTRK.chm
 nvwss.dll
 nvwssr.dll
 nvxdapix.dll
@@ -288,7 +130,6 @@ HKLM,"System\currentControlset\Services\nvlddmkm\FTS",EnableRID73471,%REG_DWORD%
 %NVIDIA_DEV.0FFD%           = Section044, PCI\VEN_10DE&DEV_0FFD                 
 %NVIDIA_DEV.0FFE%           = Section042, PCI\VEN_10DE&DEV_0FFE                 
 %NVIDIA_DEV.0FFF%           = Section042, PCI\VEN_10DE&DEV_0FFF                 
-%NVIDIA_DEV.0FFF.094A.10DE% = Section042, PCI\VEN_10DE&DEV_0FFF&SUBSYS_094A10DE 
 %NVIDIA_DEV.1021%           = Section048, PCI\VEN_10DE&DEV_1021                 
 %NVIDIA_DEV.1022%           = Section048, PCI\VEN_10DE&DEV_1022                 
 %NVIDIA_DEV.1023%           = Section048, PCI\VEN_10DE&DEV_1023                 
@@ -399,7 +240,6 @@ HKLM,"System\currentControlset\Services\nvlddmkm\FTS",EnableRID73471,%REG_DWORD%
 %NVIDIA_DEV.0FFD%           = Section043, PCI\VEN_10DE&DEV_0FFD                 
 %NVIDIA_DEV.0FFE%           = Section041, PCI\VEN_10DE&DEV_0FFE                 
 %NVIDIA_DEV.0FFF%           = Section041, PCI\VEN_10DE&DEV_0FFF                 
-%NVIDIA_DEV.0FFF.094A.10DE% = Section041, PCI\VEN_10DE&DEV_0FFF&SUBSYS_094A10DE 
 %NVIDIA_DEV.1021%           = Section047, PCI\VEN_10DE&DEV_1021                 
 %NVIDIA_DEV.1022%           = Section047, PCI\VEN_10DE&DEV_1022                 
 %NVIDIA_DEV.1023%           = Section047, PCI\VEN_10DE&DEV_1023                 
@@ -8653,8 +8493,6 @@ Display.Driver = nvdispco64.dll
 Display.Driver = nvdispgenco64.dll
 Display.Update = *.dll,*.nvi
 DisplayDriverCrashAnalyzer = *.*
-NV3DVision = NV3DVisionExt.dll,NV3DVision.nvi,3DVision.exe,nvst3*.chm
-NV3DVisionUSB.Driver = nvir3dgenco*.dll,nvir3dco*.exe,NVIRUSB.nvi,NVIRUSBExt.dll,nvstusb.inf,nvstusb.cat,nvstusb*.sys
 NVI2 = presentations.cfg,presentations.dll,progress.htm
 NVI2 = theme.cfg,*.ui.forms,*.ui.strings,*.png,NVI2*.dll,NVPrxy*.dll,NVI2SystemService*.sys,NVNetworkService.exe,NVNetworkServiceAPI.dll,NvInstallerUtil.dll
 NvCamera = *.*
@@ -9594,8 +9432,8 @@ AddReg = nv_commonCoinstaller_addreg
 CopyFiles = nv_coinstaller_copyfiles
 
 [nv_coinstaller_copyfiles]
-nvdispco6439262.dll,nvdispco64.dll,,0x00004000
-nvdispgenco6439262.dll,nvdispgenco64.dll,,0x00004000
+nvdispco6439263.dll,nvdispco64.dll,,0x00004000
+nvdispgenco6439263.dll,nvdispgenco64.dll,,0x00004000
 
 [Section154.GeneralConfigData]
 MaximumDeviceMemoryConfiguration = 128
@@ -9715,8 +9553,8 @@ NvSupportMSHybrid = 1
 RegisterDLLs = nv_common_registerdll
 
 [nv_commonCoinstaller_addreg]
-HKR,,CoInstallers32,%REG_MULTI_SZ%,"nvdispgenco6439262.dll,NvGenericCoInstall"
-HKR,,CoInstallers32,%REG_SZ_APPEND%,"nvdispco6439262.dll,NVDisplayCoInstall"
+HKR,,CoInstallers32,%REG_MULTI_SZ%,"nvdispgenco6439263.dll,NvGenericCoInstall"
+HKR,,CoInstallers32,%REG_SZ_APPEND%,"nvdispco6439263.dll,NVDisplayCoInstall"
 
 [Section155.CoInstallers]
 AddReg = nv_commonCoinstaller_addreg
@@ -19580,132 +19418,13 @@ NVIDIA_DEV.06DE.091E.10DE = "NVIDIA Tesla M2050"
 NVIDIA_DEV.06DF = "NVIDIA Tesla M2070-Q"
 NVIDIA_DEV.06DF.084D.10DE = "NVIDIA Tesla M2070-Q"
 NVIDIA_DEV.06DF.087F.10DE = "NVIDIA Tesla M2070-Q"
-NVIDIA_DEV.0B3E = "NVIDIA Graphics Device"
-NVIDIA_DEV.0CE0 = "NVIDIA GF119_FPGA"
-NVIDIA_DEV.0DC0 = "NVIDIA GeForce GT 440"
-NVIDIA_DEV.0DC1 = "NVIDIA D12-P1-35"
-NVIDIA_DEV.0DC2 = "NVIDIA D12-P1-35 "
 NVIDIA_DEV.0DC4 = "NVIDIA GeForce GTS 450"
-NVIDIA_DEV.0DC5 = "NVIDIA GeForce GTS 450"
-NVIDIA_DEV.0DC6 = "NVIDIA GeForce GTS 450  "
-NVIDIA_DEV.0DCA = "NVIDIA GF10x"
-NVIDIA_DEV.0DCC = "NVIDIA N12E-GS"
-NVIDIA_DEV.0DCD = "NVIDIA GeForce GT 555M"
-NVIDIA_DEV.0DCE = "NVIDIA GeForce GT 555M "
-NVIDIA_DEV.0DCF = "NVIDIA N12P-GT-B"
-NVIDIA_DEV.0DD0 = "NVIDIA N11E-GT"
-NVIDIA_DEV.0DD1 = "NVIDIA GeForce GTX 460M"
-NVIDIA_DEV.0DD2 = "NVIDIA GeForce GT 445M"
-NVIDIA_DEV.0DD3 = "NVIDIA GeForce GT 435M"
-NVIDIA_DEV.0DD6 = "NVIDIA GeForce GT 550M"
-NVIDIA_DEV.0DD8 = "NVIDIA Quadro 2000 / 2000D"
-NVIDIA_DEV.0DDA = "NVIDIA Quadro 2000M"
-NVIDIA_DEV.0DDE = "NVIDIA GF106-ES"
-NVIDIA_DEV.0DDF = "NVIDIA GF106-INT"
-NVIDIA_DEV.0DE0 = "NVIDIA GeForce GT 440"
-NVIDIA_DEV.0DE1 = "NVIDIA GeForce GT 430"
-NVIDIA_DEV.0DE2 = "NVIDIA GeForce GT 420"
-NVIDIA_DEV.0DE3 = "NVIDIA GeForce GT635M"
-NVIDIA_DEV.0DE4 = "NVIDIA GeForce GT 520"
-NVIDIA_DEV.0DE5 = "NVIDIA GeForce GT 530"
-NVIDIA_DEV.0DE8 = "NVIDIA GeForce GT 620M"
-NVIDIA_DEV.0DE8 = "NVIDIA N13P-GLP-A1"
-NVIDIA_DEV.0DE9 = "NVIDIA GeForce GT 630M"
-NVIDIA_DEV.0DEA = "NVIDIA GeForce 610M"
-NVIDIA_DEV.0DEB = "NVIDIA GeForce GT 555M  "
-NVIDIA_DEV.0DEC = "NVIDIA GeForce GT 525M"
-NVIDIA_DEV.0DED = "NVIDIA GeForce GT 520M"
-NVIDIA_DEV.0DEE = "NVIDIA GeForce GT 415M"
-NVIDIA_DEV.0DEF = "NVIDIA NVS 5400M"
-NVIDIA_DEV.0DF0 = "NVIDIA GeForce GT 425M"
-NVIDIA_DEV.0DF1 = "NVIDIA GeForce GT 420M  "
-NVIDIA_DEV.0DF2 = "NVIDIA GeForce GT 435M"
-NVIDIA_DEV.0DF3 = "NVIDIA GeForce GT 420M"
-NVIDIA_DEV.0DF4 = "NVIDIA GeForce GT 540M"
-NVIDIA_DEV.0DF5 = "NVIDIA GeForce GT 525M"
-NVIDIA_DEV.0DF6 = "NVIDIA GeForce GT 550M"
-NVIDIA_DEV.0DF7 = "NVIDIA GeForce GT 520M "
-NVIDIA_DEV.0DF8 = "NVIDIA Quadro 600"
-NVIDIA_DEV.0DF9 = "NVIDIA Quadro 500M"
-NVIDIA_DEV.0DFA = "NVIDIA Quadro 1000M"
-NVIDIA_DEV.0DFC = "NVIDIA NVS 5200M"
-NVIDIA_DEV.0DFE = "NVIDIA GF108 ES"
-NVIDIA_DEV.0DFF = "NVIDIA GF108 INT"
-NVIDIA_DEV.0E0D = "NVIDIA GK10x_FPGA"
-NVIDIA_DEV.0E16 = "NVIDIA Tegra on x86 (PEATRANS)"
-NVIDIA_DEV.0E20 = "NVIDIA Derivative of GF100 GPU, DX11"
-NVIDIA_DEV.0E21 = "NVIDIA D12U-25"
-NVIDIA_DEV.0E22 = "NVIDIA GeForce GTX 460"
-NVIDIA_DEV.0E23 = "NVIDIA GeForce GTX 460 SE"
-NVIDIA_DEV.0E24 = "NVIDIA GeForce GTX 460"
-NVIDIA_DEV.0E25 = "NVIDIA D12U-50"
-NVIDIA_DEV.0E28 = "NVIDIA GeForce GTX 460  "
-NVIDIA_DEV.0E30 = "NVIDIA GeForce GTX 470M"
-NVIDIA_DEV.0E31 = "NVIDIA GeForce GTX 485M"
-NVIDIA_DEV.0E32 = "NVIDIA N12E-GT"
-NVIDIA_DEV.0E38 = "NVIDIA GF104GL"
-NVIDIA_DEV.0E3A = "NVIDIA Quadro 3000M"
-NVIDIA_DEV.0E3B = "NVIDIA Quadro 4000M"
-NVIDIA_DEV.0E3C = "NVIDIA EXMF 104"
-NVIDIA_DEV.0E3E = "NVIDIA GF104-ES"
-NVIDIA_DEV.0E3F = "NVIDIA GF104-INT"
-NVIDIA_DEV.0EB8 = "NVIDIA GF118"
-NVIDIA_DEV.0F00 = "NVIDIA GeForce GT 630"
-NVIDIA_DEV.0F01 = "NVIDIA GeForce GT 620"
-NVIDIA_DEV.0F02 = "NVIDIA GeForce GT 730"
-NVIDIA_DEV.0FA0 = "NVIDIA GK11x_FPGA"
-NVIDIA_DEV.0FA5 = "NVIDIA Graphics Device"
-NVIDIA_DEV.0FA7 = "NVIDIA Tegra on x86 (PEATRANS)"
-NVIDIA_DEV.0FC0 = "NVIDIA GeForce GT 640"
-NVIDIA_DEV.0FC1 = "NVIDIA GeForce GT 640"
-NVIDIA_DEV.0FC2 = "NVIDIA GeForce GT 630 "
-NVIDIA_DEV.0FC4 = "NVIDIA D14P1-15"
-NVIDIA_DEV.0FC5 = "NVIDIA D15M2-03"
-NVIDIA_DEV.0FC6 = "NVIDIA GeForce GTX 650"
-NVIDIA_DEV.0FC8 = "NVIDIA GeForce GT 740"
-NVIDIA_DEV.0FC9 = "NVIDIA GeForce GT 730"
-NVIDIA_DEV.0FCB = "NVIDIA EXK107"
-NVIDIA_DEV.0FCD = "NVIDIA GeForce GT 755M"
-NVIDIA_DEV.0FCE = "NVIDIA GeForce GT 640M LE"
-NVIDIA_DEV.0FCF = "NVIDIA GEN3 ESI"
-NVIDIA_DEV.0FD0 = "NVIDIA NB1G"
-NVIDIA_DEV.0FD1 = "NVIDIA GeForce GT 650M"
-NVIDIA_DEV.0FD2 = "NVIDIA GeForce GT 640M"
-NVIDIA_DEV.0FD3 = "NVIDIA GeForce GT 640M LE"
-NVIDIA_DEV.0FD4 = "NVIDIA GeForce GTX 660M"
-NVIDIA_DEV.0FD5 = "NVIDIA GeForce GTX 650M"
-NVIDIA_DEV.0FD7 = "NVIDIA GK107-GTX"
-NVIDIA_DEV.0FD8 = "NVIDIA GeForce GT 640M "
-NVIDIA_DEV.0FD9 = "NVIDIA GeForce GT 645M "
-NVIDIA_DEV.0FDA = "NVIDIA GK107-ES-A1"
-NVIDIA_DEV.0FDB = "NVIDIA GK107-ESP-A1"
-NVIDIA_DEV.0FDC = "NVIDIA GK107-INT22-A1"
-NVIDIA_DEV.0FDD = "NVIDIA GK107-INT11-A1"
-NVIDIA_DEV.0FDE = "NVIDIA GK107-ES-KA-E1"
-NVIDIA_DEV.0FDF = "NVIDIA GeForce GT 740M"
-NVIDIA_DEV.0FE0 = "NVIDIA GeForce GTX 660M "
-NVIDIA_DEV.0FE1 = "NVIDIA GeForce GT 730M"
-NVIDIA_DEV.0FE2 = "NVIDIA GeForce GT 745M"
-NVIDIA_DEV.0FE3 = "NVIDIA GeForce GT 745M"
-NVIDIA_DEV.0FE4 = "NVIDIA GeForce GT 750M"
-NVIDIA_DEV.0FE5 = "NVIDIA GeForce K340 USM"
-NVIDIA_DEV.0FE6 = "NVIDIA NVS K1 USM"
-NVIDIA_DEV.0FE7 = "NVIDIA Generic K1 USM / GRID K100"
-NVIDIA_DEV.0FE9 = "NVIDIA GeForce GT 750M"
-NVIDIA_DEV.0FEA = "NVIDIA GeForce GT 755M"
-NVIDIA_DEV.0FEC = "NVIDIA GeForce 710A"
-NVIDIA_DEV.0FED = "NVIDIA GeForce 820M"
-NVIDIA_DEV.0FEF = "NVIDIA GRID K340"
-NVIDIA_DEV.0FF0 = "NVIDIA NB1Q"
-NVIDIA_DEV.0FF1 = "NVIDIA NVS 1000"
-NVIDIA_DEV.0FF2 = "NVIDIA GRID K1"
 NVIDIA_DEV.0FF3 = "NVIDIA Quadro K420"
 NVIDIA_DEV.0FF9 = "NVIDIA Quadro K2000D"
 NVIDIA_DEV.0FFA = "NVIDIA Quadro K600"
 NVIDIA_DEV.0FFD = "NVIDIA NVS 510"
 NVIDIA_DEV.0FFE = "NVIDIA Quadro K2000"
 NVIDIA_DEV.0FFF = "NVIDIA Quadro 410"
-NVIDIA_DEV.0FFF.094A.10DE = "NVIDIA Quadro 410"
 NVIDIA_DEV.1021 = "NVIDIA Tesla K20Xm"
 NVIDIA_DEV.1022 = "NVIDIA Tesla K20c"
 NVIDIA_DEV.1023 = "NVIDIA Tesla K40m"
